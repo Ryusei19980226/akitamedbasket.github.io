@@ -1,0 +1,194 @@
+*{
+  box-sizing:border-box
+}
+
+@media screen and (min-width:1024px) {
+  .header {
+    padding: 0.5em;/*文字周りの余白*/
+    color: #010101;/*文字色*/
+    background: #eaf3ff;/*背景色*/
+    border-bottom: solid 3px #516ab6;/*下線*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+  }
+  
+  .snsbtn {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 350px;/* ボタンを設置する場所の最大横幅 */
+    }
+    
+  .flowbtn3 {
+    font-family: 'Noto Sans Japaneses', sans-serif; /* フォント指定 */
+    position: relative;
+    display: inline-block;
+    width: 60px;/* 背景横幅 */
+    height: 60px; /* 背景高さ */
+    font-size: 35px;
+    border-radius: 13px;/* ボタンの角を丸く */
+    transition: .5s;
+    text-decoration: none;
+    color: #fff;/* アイコンカラー */
+    margin-bottom:10px;/* ボタン下の余白 */
+    }
+  
+  .flowbtn3 i {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    }
+  
+  .my_x1 {
+    background: #000;
+    margin-right: 10px;
+    }
+      
+      /* Instagram背景 */
+  .my_instagram1 {
+    background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+    margin-right: 20px;
+    }
+      
+  .main{
+    background-image: url(https://i.pinimg.com/originals/ea/76/f7/ea76f79ebe257cb11e2328de17757bce.jpg);
+    background-size: cover;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+    margin-top: 120px;
+  }
+  
+  .image{
+    text-align: center;
+  }
+  
+  .section li{
+    font-size: 25px;
+    margin:0 350px 20px 350px 
+  }
+  
+  .title {
+    
+    font-size: 20px;
+    margin:0 350px 20px 350px 
+  }
+  .title h3{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .events{
+    
+    font-size: 20px;
+    margin:0 350px
+  }
+  
+  .events h3{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact{
+   
+    font-size: 20px;
+    margin:0 350px
+  }
+  
+  li{
+    list-style-type:none ;
+  }
+  
+}
+
+
+  
+/*スマホ表示用*/
+
+@media (max-width: 670px){
+  li{
+    list-style-type:none ;
+  }
+  .header{
+    padding: 0.5em;/*文字周りの余白*/
+    color: #010101;/*文字色*/
+    background: #eaf3ff;/*背景色*/
+    border-bottom: solid 3px #516ab6;/*下線*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    }
+  .header h1{
+    width: 200px;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .snsbtn {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 350px;/* ボタンを設置する場所の最大横幅 */
+    }
+    
+  .flowbtn3 {
+    font-family: 'Noto Sans Japaneses', sans-serif; /* フォント指定 */
+    position: relative;
+    display: inline-block;
+    width: 40px;/* 背景横幅 */
+    height: 40px; /* 背景高さ */
+    font-size: 35px;
+    border-radius: 13px;/* ボタンの角を丸く */
+    transition: .5s;
+    text-decoration: none;
+    color: #fff;/* アイコンカラー */
+    margin-bottom:10px;/* ボタン下の余白 */
+    }
+  
+  .flowbtn3 i {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    }
+  
+  .my_x1 {
+    background: #000;
+    margin-right: 10px;
+    }
+      
+      /* Instagram背景 */
+  .my_instagram1 {
+    background: linear-gradient(45deg, rgba(254,212,117,1) 0%,rgba(229,61,93,1) 50%,rgba(194,49,134,1) 70%,rgba(156,56,187,1) 100%);
+    margin-right: 20px;
+    }
+  .main{
+    background-image: url(https://i.pinimg.com/originals/ea/76/f7/ea76f79ebe257cb11e2328de17757bce.jpg);
+    background-size: cover;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+    margin-top: 120px;
+    overflow: hidden;
+    margin-top: 90px;
+    }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  .contents li{
+    font-size: 15px;
+  }
+  }
